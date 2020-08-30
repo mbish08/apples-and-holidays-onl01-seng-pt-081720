@@ -45,7 +45,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   # remember to return the updated hash
 holiday_hash[:spring].each do |holiday, decorations|
-  decorations << "Table Cloth"
+  decorations << "Grill", "Table Cloth"
 end 
 holiday_hash
 binding.pry
