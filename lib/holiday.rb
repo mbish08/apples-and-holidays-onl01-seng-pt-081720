@@ -48,7 +48,6 @@ holiday_hash[:spring].each do |holiday, decorations|
   decorations << "Grill", "Table Cloth"
 end 
 holiday_hash
-binding.pry
 end
 
 def all_winter_holiday_supplies(holiday_hash)
