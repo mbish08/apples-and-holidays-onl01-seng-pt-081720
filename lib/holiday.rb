@@ -31,6 +31,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
         holiday << "Balloons"
       end 
 end 
+end 
 end
 
 
